@@ -1,3 +1,7 @@
+
+do "[insert your file path]/Covid Risk Manipulation.do"
+
+
 ********************************************************************************
 *
 * Omitted Controls 
@@ -101,13 +105,4 @@ foreach sg in $subgroups {
 }
 esttab using "output/Heterogeneous/policy wc Heterogeneous.csv",se star(* .10 ** .05 *** .01) r2 drop($controlvlist)
 
-
-********* Appendix indices
-global outcomes health_index_all health_index_you econindex policyindex
-
-foreach var in $outcomes {
-	eststo:reg `var' i.informationarm
-}
-
-esttab using "output/appendix indices woc.csv",se star(* .10 ** .05 *** .01) r2
-
+///////////////////////////////END/OF/FILE//////////////////////////////////////
