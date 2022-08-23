@@ -1,3 +1,6 @@
+
+do "[insert your file path]/Covid Risk Manipulation.do"
+
 ********************************************************************************
 * 																			   *								
 **# 					Tables										   		   *
@@ -438,3 +441,4 @@ graph export "output/Health risk items reults.pdf", as(pdf) name("Health risk it
 
 twoway (scatter econindex health_index_you) (lfit econindex health_index_you), ytitle(Economicrisk perception) xtitle(Health Risk Perception) legend(order(1 "Risk perception" 2 "Predicted economic risk perception"))
 
+///////////////////////////////END/OF/FILE//////////////////////////////////////
