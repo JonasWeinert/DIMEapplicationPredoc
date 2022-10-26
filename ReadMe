@@ -1,3 +1,22 @@
-//All code in this repository is produced or adapted and cited by student 39545 for their dissertation as part of their Msc. Global Health Policy in the LSE department of health policy
-//Start by exectuting "Covid Risk Manipulation.do" to initiate Data preperation
-//Dataset available upon request to Dr. Mylene Lagarde: M.Lagarde@lse.ac.uk
+
+# Jonas Weinert Dime application
+
+All files are created by Jonas Weinert.
+Compiled from different project for DIME pre-doc RA application.
+
+## Authors
+
+- [@JonasWeinert](https://github.com/JonasWeinert)
+
+
+## Stata
+
+- [DissertationMSc full stata code](https://github.com/JonasWeinert/DIMEapplicationPredoc/blob/main/complete)
+
+## ODK
+
+#### Patient exit interview Global Fund WoC intervention
+
+- [Deployed in Kobo Toolbox](https://ee.kobotoolbox.org/x/L7KrqwCP)
+- [XLS Form (ODK)](https://github.com/JonasWeinert/39545_dissertation/blob/main/QI_Eval_ExitInterview.xlsx)
+
